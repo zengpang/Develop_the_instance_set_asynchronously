@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>自建await表达式方法_创建名为ten的Func委托_</RootNamespace>
+  </PropertyGroup>
+
+</Project>

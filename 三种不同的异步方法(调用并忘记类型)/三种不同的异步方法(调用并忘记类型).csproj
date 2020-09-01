@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>三种不同的异步方法_调用并忘记类型_</RootNamespace>
+  </PropertyGroup>
+
+</Project>
