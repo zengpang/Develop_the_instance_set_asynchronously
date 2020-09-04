@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "异步操作的取消", "�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "异常处理和await表达式", "异常处理和await表达式\异常处理和await表达式.csproj", "{0749D754-423B-4DA1-AF8E-8468E8B25CCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "在异步方法中等待异步任务", "在异步方法中等待异步任务\在异步方法中等待异步任务.csproj", "{FE05D473-3A23-430D-97FE-DF7C529A0068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "在异步方法中等待异步任务", "在异步方法中等待异步任务\在异步方法中等待异步任务.csproj", "{FE05D473-3A23-430D-97FE-DF7C529A0068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delay方法", "Task.Delay方法\Delay方法.csproj", "{54E3242C-B305-4747-AAD8-16A15A9FD396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "在GUI程序中进行异步操作", "在GUI程序中进行异步操作\在GUI程序中进行异步操作.csproj", "{55A26854-FAD9-4338-BD83-B8AEA69F6F3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield方法", "Yield方法\Yield方法.csproj", "{F1B33539-6465-45CB-8880-2B92E8657D45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{FE05D473-3A23-430D-97FE-DF7C529A0068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE05D473-3A23-430D-97FE-DF7C529A0068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE05D473-3A23-430D-97FE-DF7C529A0068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E3242C-B305-4747-AAD8-16A15A9FD396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E3242C-B305-4747-AAD8-16A15A9FD396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E3242C-B305-4747-AAD8-16A15A9FD396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E3242C-B305-4747-AAD8-16A15A9FD396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A26854-FAD9-4338-BD83-B8AEA69F6F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A26854-FAD9-4338-BD83-B8AEA69F6F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A26854-FAD9-4338-BD83-B8AEA69F6F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A26854-FAD9-4338-BD83-B8AEA69F6F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B33539-6465-45CB-8880-2B92E8657D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B33539-6465-45CB-8880-2B92E8657D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B33539-6465-45CB-8880-2B92E8657D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B33539-6465-45CB-8880-2B92E8657D45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
